@@ -14,6 +14,61 @@ p{margin:1rem 0}
 a.home{color:#3a6ea5;text-decoration:underline}
 .meta{color:#888;font-size:0.9rem}
 </style>
+<!-- gallery-img-constrain v4 -->
+<style>
+/* Static archive: render Squarespace galleries as full-width vertical
+   sequence. v4: override JS-applied inline position:absolute on imgs. */
+.sqs-gallery,
+.sqs-gallery-design-stacked,
+.sqs-gallery-design-grid,
+.sqs-gallery-design-strip,
+.sqs-gallery-block-grid,
+.sqs-block-gallery .sqs-gallery {
+  display: block !important; width: 100% !important; height: auto !important;
+  position: static !important; margin: 0 0 1rem 0 !important;
+}
+.sqs-gallery .slide,
+.sqs-gallery-design-stacked-slide,
+.sqs-gallery-design-stacked .slide,
+.sqs-gallery-design-grid .slide,
+.sqs-gallery-block-grid .slide {
+  display: block !important; position: relative !important;
+  opacity: 1 !important; visibility: visible !important;
+  pointer-events: auto !important; z-index: auto !important;
+  width: 100% !important; height: auto !important;
+  margin: 0 0 1rem 0 !important; transform: none !important;
+  float: none !important; clear: both !important;
+  transition: none !important;
+}
+/* CRITICAL v4 fix: Squarespace JS sets inline position:absolute on the
+   gallery imgs themselves. Override that so they participate in flow. */
+.sqs-gallery img.thumb-image,
+.sqs-gallery .slide img,
+.sqs-gallery-design-stacked img,
+.sqs-gallery-design-grid img,
+.sqs-gallery-block-grid img {
+  display: block !important;
+  position: static !important;
+  top: auto !important; left: auto !important; right: auto !important; bottom: auto !important;
+  width: 100% !important; height: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  margin: 0 0 0.5rem 0 !important;
+  transition: none !important;
+}
+/* Force the active-slide class to not affect display */
+.sqs-active-slide, .sqs-gallery-design-stacked .sqs-active-slide {
+  opacity: 1 !important; visibility: visible !important; z-index: auto !important;
+}
+.sqs-gallery-controls,
+.sqs-gallery-design-stacked-controls,
+.sqs-gallery-design-stacked-bullet,
+.sqs-gallery-design-stacked-thumbnail-strip { display: none !important; }
+img.thumb-image, .image-block img, .sqs-block-image img {
+  max-width: 100% !important; height: auto;
+}
+</style>
+<!-- gallery-img-constrain v4 -->
 </head>
 <body>
 <div class="box">
