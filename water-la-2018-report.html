@@ -159,6 +159,21 @@
 </style>
 <!-- mulish-typekit-shim v2 -->
 <!-- strip-dynamic v1 -->
+<!-- gallery-img-constrain v1 -->
+<style>
+/* Constrain gallery thumb imgs that lost their JS-set width/height when we
+   stripped data-image-dimensions + disabled ImageLoader. */
+img.thumb-image,
+.sqs-system-gallery img,
+.sqs-block-gallery img,
+.sqs-gallery img,
+.image-block img,
+.sqs-block-image img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+</style>
+<!-- gallery-img-constrain v1 -->
 </head>
   <body id="collection-5a61203a53450a0bfbedf5bf">
     <div class="sqs-slide-wrapper" data-slide-id="5a61203a53450a0bfbedf5c0" data-slide-type="cover-page">

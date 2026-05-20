@@ -11,6 +11,21 @@ h1{font-size:2rem;margin-bottom:1rem}
 p{margin:1rem 0}
 a{color:#3a6ea5;text-decoration:underline}
 </style>
+<!-- gallery-img-constrain v1 -->
+<style>
+/* Constrain gallery thumb imgs that lost their JS-set width/height when we
+   stripped data-image-dimensions + disabled ImageLoader. */
+img.thumb-image,
+.sqs-system-gallery img,
+.sqs-block-gallery img,
+.sqs-gallery img,
+.image-block img,
+.sqs-block-image img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+</style>
+<!-- gallery-img-constrain v1 -->
 </head>
 <body>
 <div class="box">
