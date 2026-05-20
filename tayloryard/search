@@ -64,7 +64,7 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
   <div class="Mobile-bar Mobile-bar--top" data-nc-group="top" data-controller="MobileOffset">
 
     <div data-nc-container="top-left">
-      <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
+      <a href="index.html" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
         
           
             
@@ -137,7 +137,7 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
     </div>
     <div data-nc-container="bottom-right">
       
-      <a href="/search" class="Mobile-bar-search" data-nc-element="search-icon" aria-label="Search">
+      <a href="search" class="Mobile-bar-search" data-nc-element="search-icon" aria-label="Search">
         <svg class="Icon Icon--search" viewBox="0 0 20 20">
           <use xlink:href="/assets/ui-icons.svg#search-icon"></use>
         </svg>
@@ -195,25 +195,25 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
       </button>
       
         
-          <a href="/overview" class="Mobile-overlay-folder-item">
+          <a href="overview" class="Mobile-overlay-folder-item">
             Overview
           </a>
         
       
         
-          <a href="/history" class="Mobile-overlay-folder-item">
+          <a href="history" class="Mobile-overlay-folder-item">
             History
           </a>
         
       
         
-          <a href="/coalition" class="Mobile-overlay-folder-item">
+          <a href="coalition" class="Mobile-overlay-folder-item">
             The Coalition
           </a>
         
       
         
-          <a href="/interpretiveproject" class="Mobile-overlay-folder-item">
+          <a href="interpretiveproject" class="Mobile-overlay-folder-item">
             Interpretive Project
           </a>
         
@@ -228,13 +228,13 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
       </button>
       
         
-          <a href="/parcelmap" class="Mobile-overlay-folder-item">
+          <a href="parcelmap" class="Mobile-overlay-folder-item">
             Parcel Map
           </a>
         
       
         
-          <a href="/updates" class="Mobile-overlay-folder-item">
+          <a href="updates" class="Mobile-overlay-folder-item">
             Updates & Action
           </a>
         
@@ -321,39 +321,39 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
   <div class="Header-nav-inner">
     <span class="Header-nav-item Header-nav-item--folder">
 
-      <a href="/about" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">About</a>
+      <a href="about" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">About</a>
 
       <span class="Header-nav-folder">
         
           
-            <a href="/overview" class="Header-nav-folder-item" data-test="template-nav">Overview</a>
+            <a href="overview" class="Header-nav-folder-item" data-test="template-nav">Overview</a>
           
         
           
-            <a href="/history" class="Header-nav-folder-item" data-test="template-nav">History</a>
+            <a href="history" class="Header-nav-folder-item" data-test="template-nav">History</a>
           
         
           
-            <a href="/coalition" class="Header-nav-folder-item" data-test="template-nav">The Coalition</a>
+            <a href="coalition" class="Header-nav-folder-item" data-test="template-nav">The Coalition</a>
           
         
           
-            <a href="/interpretiveproject" class="Header-nav-folder-item" data-test="template-nav">Interpretive Project</a>
+            <a href="interpretiveproject" class="Header-nav-folder-item" data-test="template-nav">Interpretive Project</a>
           
         
       </span>
     </span><span class="Header-nav-item Header-nav-item--folder">
 
-      <a href="/latestnewsaction" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">Latest News</a>
+      <a href="latestnewsaction" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">Latest News</a>
 
       <span class="Header-nav-folder">
         
           
-            <a href="/parcelmap" class="Header-nav-folder-item" data-test="template-nav">Parcel Map</a>
+            <a href="parcelmap" class="Header-nav-folder-item" data-test="template-nav">Parcel Map</a>
           
         
           
-            <a href="/updates" class="Header-nav-folder-item" data-test="template-nav">Updates & Action</a>
+            <a href="updates" class="Header-nav-folder-item" data-test="template-nav">Updates & Action</a>
           
         
       </span>
@@ -364,7 +364,7 @@ img.thumb-image, .image-block img, .sqs-block-image img { max-width: 100% !impor
             </div>
             <div data-nc-container="bottom-center">
 
-              <a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
+              <a href="index.html" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
                 
                   
                     
