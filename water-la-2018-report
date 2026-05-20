@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Water LA 2018 Report — The River Project</title>
+<style>
+body{font-family:'Mulish','Heebo',sans-serif;background:#fff;color:#222;margin:0;padding:4rem 2rem;line-height:1.6;text-align:center}
+.box{max-width:680px;margin:0 auto}
+h1{font-size:2rem;margin-bottom:1rem;letter-spacing:0.04em}
+p{margin:1rem 0}
+.cta{display:inline-block;margin:1.5rem 0;padding:0.9rem 1.8rem;background:#3a6ea5;color:#fff;text-decoration:none;border-radius:4px;font-weight:600}
+.cta:hover{background:#2d5683}
+a.home{color:#3a6ea5;text-decoration:underline}
+.meta{color:#888;font-size:0.9rem}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Water LA — 2018 Report</h1>
+<p>The full report from The River Project's <strong>Water LA</strong> initiative —
+documenting watershed-based stormwater capture, groundwater recharge, and
+neighborhood-scale water resilience across pilot communities in Los Angeles.</p>
+<p>
+  <a class="cta" href="static1.squarespace.com/static/5a21b552bce176df59bb9c8e/t/5a95af0c9140b74923e2a0fb/1519759148508/WaterLA_Report_022318_web.pdf">
+    Download the report (PDF, 16 MB)
+  </a>
+</p>
+<p class="meta">Published February 2018</p>
+<p><a class="home" href="index.html">← Return to the homepage</a></p>
+</div>
+</body>
+</html>
