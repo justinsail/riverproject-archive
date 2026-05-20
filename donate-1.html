@@ -11,52 +11,58 @@ h1{font-size:2rem;margin-bottom:1rem}
 p{margin:1rem 0}
 a{color:#3a6ea5;text-decoration:underline}
 </style>
-<!-- gallery-img-constrain v2 -->
+<!-- gallery-img-constrain v3 -->
 <style>
-/* Squarespace JS-driven galleries don't work statically. Convert all gallery
-   layouts into a flat CSS grid so every image is visible at a sensible size.
-   This applies to thumb-image grids and stacked-slideshow galleries. */
+/* Static archive: render Squarespace galleries as a full-width vertical
+   scrolling sequence. JS-driven slideshow/grid components don't work
+   without their controllers, so we override layout entirely. */
 .sqs-gallery,
 .sqs-gallery-design-stacked,
 .sqs-gallery-design-grid,
 .sqs-gallery-design-strip,
 .sqs-gallery-block-grid,
 .sqs-block-gallery .sqs-gallery {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
-  gap: 12px !important;
+  display: block !important;
+  width: 100% !important;
   height: auto !important;
   position: static !important;
-  width: 100% !important;
+  margin: 0 0 1rem 0 !important;
 }
 .sqs-gallery .slide,
 .sqs-gallery-design-stacked-slide,
 .sqs-gallery-design-stacked .slide,
 .sqs-gallery-design-grid .slide,
 .sqs-gallery-block-grid .slide {
+  display: block !important;
   position: relative !important;
   opacity: 1 !important;
   visibility: visible !important;
   pointer-events: auto !important;
   z-index: auto !important;
-  display: block !important;
-  width: auto !important;
+  width: 100% !important;
   height: auto !important;
+  margin: 0 0 1rem 0 !important;
   transform: none !important;
+  float: none !important;
+  clear: both !important;
 }
 .sqs-gallery img.thumb-image,
 .sqs-gallery .slide img,
 .sqs-gallery-design-stacked img,
-.sqs-gallery-design-grid img {
-  width: 100% !important;
-  height: 220px !important;
-  object-fit: cover !important;
+.sqs-gallery-design-grid img,
+.sqs-gallery-block-grid img {
   display: block !important;
+  width: 100% !important;
+  height: auto !important;
   max-width: 100% !important;
+  object-fit: contain !important;
+  margin: 0 !important;
 }
-/* Hide arrow/dot controls of slideshow (no longer functional) */
+/* Hide controls — non-functional without JS */
 .sqs-gallery-controls,
-.sqs-gallery-design-stacked-controls { display: none !important; }
+.sqs-gallery-design-stacked-controls,
+.sqs-gallery-design-stacked-bullet,
+.sqs-gallery-design-stacked-thumbnail-strip { display: none !important; }
 /* Generic image fallback */
 img.thumb-image,
 .image-block img,
@@ -65,7 +71,7 @@ img.thumb-image,
   height: auto;
 }
 </style>
-<!-- gallery-img-constrain v2 -->
+<!-- gallery-img-constrain v3 -->
 </head>
 <body>
 <div class="box">
